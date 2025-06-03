@@ -7,12 +7,12 @@ export function PortfolioSection() {
   const [activeFilter, setActiveFilter] = useState("all");
 
   const portfolioItems = [
-    { id: 1, category: "traditional", image: "https://images.unsplash.com/photo-1565058379802-bbe93b2547a1?w=400&h=400&fit=crop", title: "Traditional Rose" },
-    { id: 2, category: "realistic", image: "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=400&h=400&fit=crop", title: "Portrait Realism" },
-    { id: 3, category: "geometric", image: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=400&h=400&fit=crop", title: "Sacred Geometry" },
-    { id: 4, category: "traditional", image: "https://images.unsplash.com/photo-1587496579291-8ad689b8b27d?w=400&h=400&fit=crop", title: "Old School Eagle" },
-    { id: 5, category: "realistic", image: "https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?w=400&h=400&fit=crop", title: "Wildlife Portrait" },
-    { id: 6, category: "geometric", image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop", title: "Mandala Design" },
+    { id: 1, category: "traditional", image: "/images/rose.png", title: "Traditional Rose" },
+    { id: 2, category: "realistic", image: "/images/realism.png", title: "Portrait Realism" },
+    { id: 3, category: "geometric", image: "/images/old-school.jfif", title: "Old School Eagle" },
+    { id: 4, category: "traditional", image: "/images/cool.png", title: "Old School Eagle" },
+    { id: 5, category: "realistic", image: "/images/wild-life.jfif", title: "Wildlife Portrait" },
+    { id: 6, category: "geometric", image: "/images/mandala.png", title: "Mandala Design" },
   ];
 
   const filteredItems = activeFilter === "all"

@@ -44,7 +44,7 @@ export function AboutSection() {
           </div>
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=500&h=600&fit=crop"
+              src="/images/tattoo-professional.png"
               alt="Artist at work"
               className="rounded-lg shadow-2xl"
             />
